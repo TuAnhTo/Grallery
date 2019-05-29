@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallary</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid">
+<h1 class="font-weight-bold">Responsive Image Gallery</h1>
+<p class="font-weight-bold">Resize the browser window to see the effect.</p>
+
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card mt-4">
+            <a><img src="img_fjords.jpg" class="card-img-top" width="300" height="350"></a>
+            <div class="card-footer">
+                <p class="card-text text-center">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card mt-4">
+            <img src="img_forest.jpg" alt="" class="card-img-top" width="300" height="350">
+            <div class="card-footer">
+                <p class="card-text text-center">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card mt-4">
+            <img src="img_lights.jpg" alt="" class="card-img-top" width="300" height="350">
+            <div class="card-footer">
+                <p class="card-text text-center">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="card mt-4">
+            <img src="img_mountains.jpg" alt="" class="card-img-top" width="300" height="350">
+            <div class="card-footer">
+                <p class="card-text text-center">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+    <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+</div>
+</body>
+</html>
